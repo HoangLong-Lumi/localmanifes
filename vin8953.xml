@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="hlong"
+           fetch="https://github.com/HoangLong-Lumi" />
+
+  <remote  name="hlong2nd"
+           fetch="https://github.com/Lumi-Academy" />
+
+ <!-- vin8953 -->
+  <project path="kernel/vsmart/vin8953" name="kernel_vsmart_vin8953" remote="hlong" revision="vin8953/a14" />
+  <project path="device/vsmart/vin8953" name="android_device_vsmart_casuarina" groups="device" remote="hlong2nd" revision="lineage-21" />
+  <project path="vendor/vsmart/vin8953" name="vendor_vsmart_vin8953" groups="device" remote="hlong" revision="lineage-20" />
+</manifest>
